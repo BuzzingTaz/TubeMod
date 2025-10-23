@@ -816,7 +816,7 @@ const STORAGE = {
     {
       id: "video-suggested-videos-new-badge",
       selector:
-        "//ytd-compact-video-renderer//div/ytd-badge-supported-renderer[.//div[contains(@class, 'badge')]]",
+        "//div[@id='secondary']//yt-content-metadata-view-model//div[.//yt-badge-view-model[.//div[text()='New']]]",
       checked: false,
       property: DISPLAY,
       style: DISPLAY_NONE,
